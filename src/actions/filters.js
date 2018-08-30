@@ -3,11 +3,11 @@ export const setTextFilter = (text = '') => ({
   text
 });
 
-export const setSortByDate = () => ({
+export const sortByDate = () => ({
   type: 'SORT_BY_DATE',
 });
 
-export const setSortByAmount = () => ({
+export const sortByAmount = () => ({
   type: 'SORT_BY_AMOUNT',
 });
 
