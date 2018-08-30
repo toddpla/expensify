@@ -10,6 +10,8 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 
+
+
 const store = configureStore();
 
 store.dispatch(addExpense({description: 'New Laptop', amount: 2500, createdAt: 1000000}))
